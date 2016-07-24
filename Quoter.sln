@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quoter", "src\Quoter\Quoter.csproj", "{927AB47F-479C-423A-B21F-5DEC48533E1D}"
 EndProject
@@ -19,6 +19,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoterServiceOld", "src\QuoterServiceOld\QuoterServiceOld.csproj", "{BD5CB646-47C2-4710-B755-19D35296951A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoterAnalyzer.Test", "QuoterAnalyzer\QuoterAnalyzer.Test\QuoterAnalyzer.Test.csproj", "{A08B1424-12DE-45AB-9E11-9D8140E7DC9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoterAnalyzer.Vsix", "QuoterAnalyzer\QuoterAnalyzer.Vsix\QuoterAnalyzer.Vsix.csproj", "{2AF5F8C6-CC00-4BCB-98A8-70EAE7A54305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoterAnalyzer", "QuoterAnalyzer\QuoterAnalyzer\QuoterAnalyzer.csproj", "{4643DD65-2963-42C5-9577-DDCEDB3045A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +44,18 @@ Global
 		{BD5CB646-47C2-4710-B755-19D35296951A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD5CB646-47C2-4710-B755-19D35296951A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD5CB646-47C2-4710-B755-19D35296951A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08B1424-12DE-45AB-9E11-9D8140E7DC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08B1424-12DE-45AB-9E11-9D8140E7DC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08B1424-12DE-45AB-9E11-9D8140E7DC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08B1424-12DE-45AB-9E11-9D8140E7DC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF5F8C6-CC00-4BCB-98A8-70EAE7A54305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF5F8C6-CC00-4BCB-98A8-70EAE7A54305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF5F8C6-CC00-4BCB-98A8-70EAE7A54305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF5F8C6-CC00-4BCB-98A8-70EAE7A54305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4643DD65-2963-42C5-9577-DDCEDB3045A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4643DD65-2963-42C5-9577-DDCEDB3045A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4643DD65-2963-42C5-9577-DDCEDB3045A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4643DD65-2963-42C5-9577-DDCEDB3045A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
